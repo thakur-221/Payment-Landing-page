@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Credit Card Landing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">⚡</div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#help">Help</a>
+      <a href="#blog">Blog</a>
+      <a href="#about">About Us</a>
+    </nav>
+    <div class="auth-buttons">
+      <button class="btn" onclick="openModal('loginModal')">Log In</button>
+      <button class="btn btn-primary" onclick="openModal('signupModal')">Sign Up</button>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <button id="themeToggle" class="btn" aria-label="Toggle Dark/Light Mode">
+  🌙
+</button>
+<div class="hamburger" id="hamburger">&#9776;</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#features">Features</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#help">Help</a>
+  <a href="#blog">Blog</a>
+  <a href="#about">About Us</a>
+</div>
+
+
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#help">Help</a>
+    <a href="#blog">Blog</a>
+    <a href="#about">About Us</a>
+  </div>
+
+  <!-- Hero Section -->
+  <main class="hero">
+    <div class="text">
+      <p class="subheading">Start Saving Money</p>
+      <h1>Smart Credit Card<br>For Your Daily Life.</h1>
+      <p class="description">
+        Manage your expenses smarter, earn rewards, and access your finances on the go — all from one modern interface.
+      </p>
+      <button class="btn btn-primary">Download ⬇️</button>
+    </div>
+    <div class="mockup">
+      <img src="phone.webp" alt="App Mockup" />
+    </div>
+  </main>
+
+  <!-- Sections -->
+  <section class="section light" id="features">
+  <h2>Smart, Scalable Features Built for Growth</h2>
+  <p>Everything you need to collect payments online efficiently, securely, and with zero friction.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>🌐 Hosted Payment Pages</h3>
+      <p>Set up a fully hosted page with branding, no code required. Share links directly with your customers.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🛡️ PCI-DSS Compliant</h3>
+      <p>Bank-grade security protocols ensure your data and transactions are 100% secure and compliant.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📊 Real-Time Analytics</h3>
+      <p>Track revenue, transactions, and customer behavior instantly through a powerful analytics dashboard.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🧾 GST Invoices</h3>
+      <p>Auto-generate GST-compliant invoices for all transactions with your tax info pre-filled.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📱 Mobile Friendly</h3>
+      <p>Optimized for any screen size—get paid easily on mobile, tablet, or desktop.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔗 Multiple Payment Options</h3>
+      <p>Support for UPI, cards, netbanking, wallets, and more. Accept payments from anywhere.</p>
+    </div>
+  </div>
+</section>
+
+
+ <section class="section dark" id="pricing">
+  <h2>Transparent, Affordable Pricing</h2>
+  <p>Only pay when you get paid. No hidden charges, ever.</p>
+
+  <div class="pricing-cards">
+    <div class="pricing-card">
+      <h3>Starter</h3>
+      <p><strong>2.9% + ₹3</strong> per transaction</p>
+      <ul>
+        <li>Hosted pages</li>
+        <li>Email & link sharing</li>
+        <li>Basic analytics</li>
+        <li>Up to ₹2L/month volume</li>
+      </ul>
+      <button class="btn-primary">Get Started</button>
+    </div>
+
+    <div class="pricing-card">
+      <h3>Business</h3>
+      <p><strong>2.5% + ₹2</strong> per transaction</p>
+      <ul>
+        <li>Custom branding</li>
+        <li>Advanced reports</li>
+        <li>Invoice generation</li>
+        <li>Priority support</li>
+      </ul>
+      <button class="btn-primary">Upgrade</button>
+    </div>
+
+    <div class="pricing-card">
+      <h3>Enterprise</h3>
+      <p><strong>Custom pricing</strong></p>
+      <ul>
+        <li>High-volume discounts</li>
+        <li>API integrations</li>
+        <li>Dedicated account manager</li>
+        <li>SLA-backed support</li>
+      </ul>
+      <button class="btn-outline">Contact Sales</button>
+    </div>
+  </div>
+</section>
+
+
+ <section class="section light" id="help">
+  <h2>Need Help? We're Here for You</h2>
+  <p>Our support team is available 24/7 via email, chat, and phone. Access detailed documentation, guides, and FAQs.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>📚 Documentation</h3>
+      <p>Step-by-step guides and API references to help you integrate and manage payment pages easily.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🎧 Live Support</h3>
+      <p>Chat or call our support team anytime. We’re available 24x7 to solve your queries.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🧠 Knowledge Base</h3>
+      <p>Browse FAQs, tutorials, and troubleshooting articles to solve issues instantly.</p>
+    </div>
+  </div>
+</section>
+<section class="section dark" id="blog">
+  <h2>From Our Blog</h2>
+  <p>Tips, updates, and insights on payments, business, and technology.</p>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>🔐 Payment Security Best Practices</h3>
+      <p>How to protect your business and customers with secure payment handling.</p>
+      <a href="#">Read more →</a>
+    </div>
+    <div class="feature-card">
+      <h3>🚀 Boost Your Checkout Conversions</h3>
+      <p>Learn 5 ways to optimize your payment flow and reduce drop-offs.</p>
+      <a href="#">Read more →</a>
+    </div>
+    <div class="feature-card">
+      <h3>📦 Product Updates – July 2025</h3>
+      <p>New features released this month including smart invoices and custom domains.</p>
+      <a href="#">Read more →</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="about" class="section light">
+    <h2>About Us</h2>
+    <p>
+      We are a fintech team passionate about simplifying modern finance.<br>
+      From students to CEOs, our smart credit card is built to help everyone manage money with clarity, control, and convenience.<br><br>
+      🌐 Headquartered in Saharanpur, U.P, India<br>
+      👩‍💻 50+ developers, designers & product builders<br>
+      🏆 Backed by top venture capital firms
+    </p>
+  </section>
+
+  <!-- Login Modal -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('loginModal')">&times;</span>
+      <h2>Log In</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit" class="btn btn-primary">Log In</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Sign Up Modal -->
+  <div class="modal" id="signupModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('signupModal')">&times;</span>
+      <h2>Sign Up</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+          <button id="themeToggle" class="btn toggle-theme">🌙</button> <!-- Theme Toggle -->
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Script -->
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = "block";
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      const loginModal = document.getElementById("loginModal");
+      const signupModal = document.getElementById("signupModal");
+      if (event.target === loginModal) loginModal.style.display = "none";
+      if (event.target === signupModal) signupModal.style.display = "none";
+    };
+  </script>
+<script src="script.js"></script>
+
+ <footer class="footer">
+    <p>This project was developed as part of the Prodesk IT Internship.</p>
+  </footer>
+
+</body>
+</html>
